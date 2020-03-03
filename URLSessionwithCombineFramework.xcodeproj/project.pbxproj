@@ -15,6 +15,7 @@
 		D13BF88A240EB7C6007A6448 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D13BF888240EB7C6007A6448 /* LaunchScreen.storyboard */; };
 		D13BF895240EB7C6007A6448 /* URLSessionwithCombineFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13BF894240EB7C6007A6448 /* URLSessionwithCombineFrameworkTests.swift */; };
 		D13BF8A0240EB7C6007A6448 /* URLSessionwithCombineFrameworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13BF89F240EB7C6007A6448 /* URLSessionwithCombineFrameworkUITests.swift */; };
+		D13BF8AE240EB825007A6448 /* CommentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13BF8AD240EB825007A6448 /* CommentModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		D13BF89B240EB7C6007A6448 /* URLSessionwithCombineFrameworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = URLSessionwithCombineFrameworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D13BF89F240EB7C6007A6448 /* URLSessionwithCombineFrameworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionwithCombineFrameworkUITests.swift; sourceTree = "<group>"; };
 		D13BF8A1240EB7C6007A6448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D13BF8AD240EB825007A6448 /* CommentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				D13BF87D240EB7C2007A6448 /* AppDelegate.swift */,
 				D13BF87F240EB7C2007A6448 /* SceneDelegate.swift */,
 				D13BF881240EB7C2007A6448 /* ViewController.swift */,
+				D13BF8AD240EB825007A6448 /* CommentModel.swift */,
 				D13BF883240EB7C2007A6448 /* Main.storyboard */,
 				D13BF886240EB7C6007A6448 /* Assets.xcassets */,
 				D13BF888240EB7C6007A6448 /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D13BF882240EB7C2007A6448 /* ViewController.swift in Sources */,
+				D13BF8AE240EB825007A6448 /* CommentModel.swift in Sources */,
 				D13BF87E240EB7C2007A6448 /* AppDelegate.swift in Sources */,
 				D13BF880240EB7C2007A6448 /* SceneDelegate.swift in Sources */,
 			);
